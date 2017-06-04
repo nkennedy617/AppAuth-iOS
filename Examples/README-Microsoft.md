@@ -27,7 +27,7 @@ Then, setup the example with your configuration:
 
 | Configuration | Description      |
 |---------------|------------------|
-| Issuer        | `https://accounts.google.com`|
+| Issuer        | `https://login.microsoftonline.com/organizations/v2.0`|
 | Client ID     | The value named `Client ID` in the console, has the format `213a422f-837a-48db-9215-c8b7b98a2585`.|
 | Client Secret | Microsoft's iOS clients do not have a secret.|
 | Redirect URI  | The value for `iOS URL scheme` wil be the scheme of your redirect URI. This is the value you enetered as a replyuRI abive , e.g. `appauth://213a422f-837a-48db-9215-c8b7b98a2585`.| 
